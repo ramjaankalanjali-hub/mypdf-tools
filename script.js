@@ -4,7 +4,8 @@ function showMessage() {
 
     if(fileInput.files.length > 0){
 
-        alert(fileInput.files.length + " PDF File Selected");
+        document.getElementById("fileName").innerText =
+        fileInput.files[0].name;
 
     } else {
 
