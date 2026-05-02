@@ -14,3 +14,9 @@ function showMessage() {
     }
 
 }
+
+async function mergePDF() {
+
+    alert("Merge PDF Button Working");
+
+}
